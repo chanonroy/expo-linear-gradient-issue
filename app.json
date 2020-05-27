@@ -1,0 +1,17 @@
+{
+  "name": "linearGradientIssue",
+  "displayName": "linearGradientIssue",
+  "expo": {
+    "name": "linearGradientIssue",
+    "slug": "linearGradientIssue",
+    "version": "1.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
