@@ -1,0 +1,15 @@
+5c0183d4f349f31496c4c6c61890c1f5
+var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+Object.defineProperty(exports, "LinearGradient", {
+  enumerable: true,
+  get: function get() {
+    return _LinearGradient.default;
+  }
+});
+
+var _LinearGradient = _interopRequireDefault(require("./LinearGradient"));
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3NyYy9pbmRleC50cyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7Ozs7QUFBQSIsInNvdXJjZXNDb250ZW50IjpbImV4cG9ydCB7XG4gIGRlZmF1bHQgYXMgTGluZWFyR3JhZGllbnQsXG4gIExpbmVhckdyYWRpZW50UHJvcHMsXG4gIExpbmVhckdyYWRpZW5Qb2ludCxcbn0gZnJvbSAnLi9MaW5lYXJHcmFkaWVudCc7XG4iXSwic291cmNlUm9vdCI6IiJ9
