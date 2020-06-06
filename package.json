@@ -25,11 +25,14 @@
   },
   "devDependencies": {
     "@babel/core": "~7.9.0",
+    "@testing-library/jest-dom": "^5.9.0",
+    "@testing-library/jest-native": "^3.1.0",
     "@types/react": "~16.9.23",
     "@types/react-native": "~0.61.23",
     "babel-preset-expo": "~8.1.0",
-    "jest": "^26.0.1",
+    "jest": "^25.0.1",
     "jest-expo": "~37.0.0",
+    "jest-native": "^3.0.0",
     "ts-jest": "^26.0.0",
     "typescript": "~3.8.3"
   },

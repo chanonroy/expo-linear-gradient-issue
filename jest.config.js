@@ -1,7 +1,9 @@
 const { defaults: tsjPreset } = require("ts-jest/presets")
+const expoPreset = require('jest-expo/jest-preset');
 
 module.exports = {
   ...tsjPreset,
+  ...expoPreset,
   preset: "@testing-library/react-native",
   globals: {
     "ts-jest": {
@@ -14,6 +16,7 @@ module.exports = {
   transform: {
     "\\.tsx?$": "ts-jest",
   },
+  setupFilesAfterEnv: ["./jest.setup.js"],
   roots: ["<rootDir>/src"],
   moduleFileExtensions: ["ts", "tsx", "js", "jsx", "json", "node"],
   transformIgnorePatterns: 
